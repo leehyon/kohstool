@@ -1,0 +1,54 @@
+name: Tool Extraction
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+  workflow_dispatch:
+
+concurrency:
+  group: mygroup
+  cancel-in-progress: false
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout kohstool
+        uses: actions/checkout@v4
+
+      - name: Checkout kohstool-guide
+        uses: actions/checkout@v4
+        with:
+          repository: leehyon/kohstool-guide
+          path: kohstool-guide
+          token: ${{ secrets.PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r kohstool-guide/requirements.txt
+
+      - name: Process changes
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_MODEL: ${{ vars.OPENAI_API_MODEL }}
+          OPENAI_API_ENDPOINT: ${{ vars.OPENAI_API_ENDPOINT }}
+        run: |
+          python kohstool-guide/process_changes.py --collection-readme README.md
+
+      - name: Commit changes to kohstool-guide
+        run: |
+          cd kohstool-guide
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "ci: add new tools" || echo "No changes to commit"
+          git push
