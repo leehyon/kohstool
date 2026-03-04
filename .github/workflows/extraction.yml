@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  summarize:
+  extraction:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout kohstool
@@ -44,6 +44,13 @@ jobs:
         run: |
           python kohstool-guide/process_changes.py --collection-readme README.md
 
+      - name: Upload data.json artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kohstool-data-json
+          path: kohstool-guide/data.json
+          if-no-files-found: error
+
       - name: Commit changes to kohstool-guide
         run: |
           cd kohstool-guide
@@ -51,4 +58,35 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "ci: add new tools" || echo "No changes to commit"
+          git push
+
+  site_sync:
+    needs: extraction
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download data.json artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: kohstool-data-json
+          path: artifact
+
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+        with:
+          repository: leehyon/tools
+          path: site
+          token: ${{ secrets.PAT }}
+
+      - name: Update site data.json
+        run: |
+          mkdir -p site/public
+          cp artifact/data.json site/public/data.json
+
+      - name: Commit and push site update
+        run: |
+          cd site
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/data.json
+          git commit -m "chore: sync kohstool data.json" || echo "No changes to commit"
           git push
