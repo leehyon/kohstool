@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  extraction:
+  summarize:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout kohstool
@@ -61,7 +61,7 @@ jobs:
           git push
 
   site_sync:
-    needs: extraction
+    needs: summarize
     runs-on: ubuntu-latest
     steps:
       - name: Download data.json artifact
