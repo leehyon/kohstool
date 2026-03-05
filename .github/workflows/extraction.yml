@@ -5,12 +5,14 @@ on:
     branches:
       - main
     paths:
-      - '**/*.md'
+      # Only rerun when the tool link list changes.
+      - 'README.md'
   workflow_dispatch:
 
 concurrency:
-  group: mygroup
-  cancel-in-progress: false
+  group: ${{ github.workflow }}-${{ github.ref }}
+  # If README changes again while a run is in progress, prefer the newest run.
+  cancel-in-progress: true
 
 jobs:
   summarize:
@@ -30,6 +32,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+          cache: 'pip'
+          cache-dependency-path: kohstool-guide/requirements.txt
       
       - name: Install dependencies
         run: |
