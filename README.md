@@ -1,3 +1,4 @@
+- [mgunyho/tere: Terminal file explorer](https://github.com/mgunyho/tere)
 - [Starship: Cross-Shell Prompt](https://starship.rs/)
 
 # About
