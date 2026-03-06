@@ -1,3 +1,4 @@
+- [JOYCEQL/magic-resume: A free online AI resume editor](https://github.com/JOYCEQL/magic-resume)
 - [vikiboss/r2-web: 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器](https://github.com/vikiboss/r2-web)
 - [nicejade/markdown2png: 一键将 Markdown 转换为精美图片](https://github.com/nicejade/markdown2png)
 - [Helix: A post-modern text editor](https://helix-editor.com/)
