@@ -1,3 +1,4 @@
+- [Excalidraw - Collaborative whiteboarding made easy](https://excalidraw.com)
 - [TinyPNG – Compress AVIF, WebP, PNG and JPEG images](https://tinypng.com/)
 - [JOYCEQL/magic-resume: A free online AI resume editor](https://github.com/JOYCEQL/magic-resume)
 - [vikiboss/r2-web: 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器](https://github.com/vikiboss/r2-web)
