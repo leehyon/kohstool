@@ -9,11 +9,6 @@ on:
       - 'README.md'
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  # If README changes again while a run is in progress, prefer the newest run.
-  cancel-in-progress: true
-
 jobs:
   summarize:
     runs-on: ubuntu-latest
