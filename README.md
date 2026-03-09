@@ -1,3 +1,4 @@
+- [Espanso: A Privacy-first, Cross-platform Text Expander](https://espanso.org/)
 - [Just: A Command Runner](https://just.systems/)
 - [pdoc - Generate API Documentation for Python Projects](https://pdoc.dev/)
 - [sinclairtarget/git-who: Git blame for file trees](https://github.com/sinclairtarget/git-who)
