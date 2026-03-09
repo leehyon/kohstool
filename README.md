@@ -1,3 +1,4 @@
+- [pdoc - Generate API Documentation for Python Projects](https://pdoc.dev/)
 - [sinclairtarget/git-who: Git blame for file trees](https://github.com/sinclairtarget/git-who)
 - [AI PDF Translator - Translate PDFs Online Free, No Sign-up](https://deeppdf.ai/pdf-translator)
 - [ourines/gateshift: A cross-platform gateway switching tool designed for OpenWrt bypass routers](https://github.com/ourines/GateShift)
