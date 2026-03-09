@@ -1,3 +1,4 @@
+- [Snipaste](https://www.snipaste.com/)
 - [markmap: Visualize your Markdown with mindmaps](https://markmap.js.org/)
 - [Excalidraw - Collaborative whiteboarding made easy](https://excalidraw.com)
 - [TinyPNG – Compress AVIF, WebP, PNG and JPEG images](https://tinypng.com/)
