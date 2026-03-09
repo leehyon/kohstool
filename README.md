@@ -1,3 +1,4 @@
+- [Readest - Free Open-Source EPUB & PDF Reader for All Platforms](https://readest.com/)
 - [GCOP - Your Git AI Copilot](https://gcop.zeeland.top/)
 - [Screenshot Editor Tool – PostSpark](https://postspark.app)
 - [microsoft/markitdown: Python tool for converting files and office documents to Markdown](https://github.com/microsoft/markitdown)
