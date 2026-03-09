@@ -1,3 +1,4 @@
+- [teojs/clock-dashboard: 一个简约的在线天气时钟](https://github.com/teojs/clock-dashboard)
 - [nobbbbby/Alertivity: System health menubar app with real-time metrics and smart notifications](https://github.com/nobbbbby/Alertivity)
 - [Snipaste](https://www.snipaste.com/)
 - [markmap: Visualize your Markdown with mindmaps](https://markmap.js.org/)
