@@ -1,3 +1,4 @@
+- [AI PDF Translator - Translate PDFs Online Free, No Sign-up](https://deeppdf.ai/pdf-translator)
 - [ourines/gateshift: A cross-platform gateway switching tool designed for OpenWrt bypass routers](https://github.com/ourines/GateShift)
 - [plait-board/drawnix: All in one open-source whiteboard tool with mind, flowchart, freehand](https://github.com/plait-board/drawnix)
 - [Readest - Free Open-Source EPUB & PDF Reader for All Platforms](https://readest.com/)
