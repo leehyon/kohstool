@@ -1,3 +1,4 @@
+- [plait-board/drawnix: All in one open-source whiteboard tool with mind, flowchart, freehand](https://github.com/plait-board/drawnix)
 - [Readest - Free Open-Source EPUB & PDF Reader for All Platforms](https://readest.com/)
 - [GCOP - Your Git AI Copilot](https://gcop.zeeland.top/)
 - [Screenshot Editor Tool – PostSpark](https://postspark.app)
