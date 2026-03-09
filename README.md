@@ -1,3 +1,4 @@
+- [Just: A Command Runner](https://just.systems/)
 - [pdoc - Generate API Documentation for Python Projects](https://pdoc.dev/)
 - [sinclairtarget/git-who: Git blame for file trees](https://github.com/sinclairtarget/git-who)
 - [AI PDF Translator - Translate PDFs Online Free, No Sign-up](https://deeppdf.ai/pdf-translator)
