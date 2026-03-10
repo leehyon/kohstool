@@ -1,3 +1,4 @@
+- [Gemini CLI - Build, debug & deploy with AI](https://geminicli.com/)
 - [Espanso: A Privacy-first, Cross-platform Text Expander](https://espanso.org/)
 - [Just: A Command Runner](https://just.systems/)
 - [pdoc - Generate API Documentation for Python Projects](https://pdoc.dev/)
