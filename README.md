@@ -1,3 +1,4 @@
+- [Fresh - The Terminal Text Editor](https://getfresh.dev/)
 - [Zed - Love your editor again](https://zed.dev/)
 - [Gemini CLI - Build, debug & deploy with AI](https://geminicli.com/)
 - [Espanso: A Privacy-first, Cross-platform Text Expander](https://espanso.org/)
