@@ -31,7 +31,7 @@
 - [PicGo: The Ultimate Image Uploader for Efficient Creators](https://docs.picgo.app/gui/)
 - [Yazi: Blazing fast terminal file manager written in Rust, based on async I/O](https://yazi-rs.github.io/)
 - [mgunyho/tere: Terminal file explorer](https://github.com/mgunyho/tere)
-- [Starship](https://starship.rs/)
+- [Starship - The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs/)
 
 # About
 
