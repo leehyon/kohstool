@@ -1,3 +1,4 @@
+- [Conductor - Run a team of coding agents on your Mac](https://www.conductor.build/)
 - [tw93/Mole: 🐹 Deep clean and optimize your Mac](https://github.com/tw93/Mole)
 - [xyTom/snippai: Snip Anything Solve Everything​](https://github.com/xyTom/snippai)
 - [Fresh - The Terminal Text Editor](https://getfresh.dev/)
