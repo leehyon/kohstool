@@ -1,3 +1,4 @@
+- [xyTom/snippai: Snip Anything Solve Everything​](https://github.com/xyTom/snippai)
 - [Fresh - The Terminal Text Editor](https://getfresh.dev/)
 - [Zed - Love your editor again](https://zed.dev/)
 - [Gemini CLI - Build, debug & deploy with AI](https://geminicli.com/)
