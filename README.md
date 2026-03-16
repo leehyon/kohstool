@@ -1,3 +1,4 @@
+- [LinearMouse | Mac 上的鼠标和触控板实用工具](https://linearmouse.app/zh-CN/)
 - [Obsidian - Sharpen your thinking](https://obsidian.md/)
 - [intellectronica/ruler: Ruler — apply the same rules to all coding agents](https://github.com/intellectronica/ruler)
 - [Conductor - Run a team of coding agents on your Mac](https://www.conductor.build/)
