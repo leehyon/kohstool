@@ -1,3 +1,4 @@
+- [PandaWiki - 开源的在线 AI 知识库](https://pandawiki.docs.baizhi.cloud/)
 - [CotEditor - The Plain-Text Editor for macOS](https://coteditor.com/)
 - [LinearMouse - Mac 上的鼠标和触控板实用工具](https://linearmouse.app/zh-CN/)
 - [Obsidian - Sharpen your thinking](https://obsidian.md/)
