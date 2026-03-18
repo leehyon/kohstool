@@ -55,6 +55,8 @@ jobs:
           cd kohstool-guide
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git fetch origin main
+          git merge origin/main --no-edit || echo "Already up to date"
           git add .
           git commit -m "ci: add new tools" || echo "No changes to commit"
           git push
