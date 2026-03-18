@@ -1,3 +1,4 @@
+- [WezTerm - Wez's Terminal Emulator](https://wezterm.org/index.html)
 - [PDF Craft - Scanned PDF Conversion](https://pdf.oomol.com/pdf-craft)
 - [C4illin/ConvertX: Self-hosted online file converter. Supports 1000+ formats](https://github.com/C4illin/ConvertX)
 - [nicotsx/zerobyte: Backup automation for self-hosters](https://github.com/nicotsx/zerobyte)
