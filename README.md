@@ -1,3 +1,4 @@
+- [MrRSS - Modern Cross-Platform RSS Reader](https://wcy-dt.github.io/MrRSS/)
 - [pypa/pipx: Install and Run Python Applications in Isolated Environments](https://github.com/pypa/pipx)
 - [winscp/winscp: WinSCP is a popular free file manager for Windows supporting SFTP, FTP, FTPS, SCP, S3, WebDAV and local-to-local file transfers](https://github.com/winscp/winscp)
 - [Alacritty - A cross-platform, OpenGL terminal emulator](https://alacritty.org/)
