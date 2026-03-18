@@ -1,3 +1,4 @@
+- [sassanix/Warracker: An open source, self-hostable warranty tracker to monitor expirations, store receipts, files](https://github.com/sassanix/warracker)
 - [Poznote - A personal note-taking and documentation platform](https://poznote.com/)
 - [gamosoft/NoteDiscovery: Your Self-Hosted Knowledge Base](https://github.com/gamosoft/NoteDiscovery)
 - [maxdorninger/MediaManager: A modern selfhosted media management system for your media library](https://github.com/maxdorninger/MediaManager)
