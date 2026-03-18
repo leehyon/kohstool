@@ -9,6 +9,10 @@ on:
       - 'README.md'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   summarize:
     runs-on: ubuntu-latest
