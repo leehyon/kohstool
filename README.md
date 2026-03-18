@@ -1,3 +1,4 @@
+- [maxdorninger/MediaManager: A modern selfhosted media management system for your media library](https://github.com/maxdorninger/MediaManager)
 - [IronCalc - Open source spreadsheet engine](https://www.ironcalc.com/)
 - [BentoPDF - Free Online PDF Tools](https://www.bentopdf.com/index.html)
 - [VidBee - Free Open Source Video Downloader](https://vidbee.org/)
