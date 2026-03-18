@@ -1,3 +1,4 @@
+- [C4illin/ConvertX: Self-hosted online file converter. Supports 1000+ formats](https://github.com/C4illin/ConvertX)
 - [nicotsx/zerobyte: Backup automation for self-hosters](https://github.com/nicotsx/zerobyte)
 - [sassanix/Warracker: An open source, self-hostable warranty tracker to monitor expirations, store receipts, files](https://github.com/sassanix/warracker)
 - [Poznote - A personal note-taking and documentation platform](https://poznote.com/)
