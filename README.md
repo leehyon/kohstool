@@ -1,3 +1,4 @@
+- [metaspartan/mactop: mactop - Apple Silicon Monitor Top](https://github.com/metaspartan/mactop)
 - [foru17/neko-master: A modern and elegant dashboard for network traffic visualization and analysis](https://github.com/foru17/neko-master)
 - [PandaWiki - 开源的在线 AI 知识库](https://pandawiki.docs.baizhi.cloud/)
 - [CotEditor - The Plain-Text Editor for macOS](https://coteditor.com/)
