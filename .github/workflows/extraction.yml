@@ -83,23 +83,47 @@ jobs:
           name: kohstool-data-json
           path: artifact
 
-      - name: Checkout site repo
+      - name: Checkout tools repo
         uses: actions/checkout@v4
         with:
           repository: leehyon/tools
-          path: site
+          path: tools
           token: ${{ secrets.PAT }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - name: Update site data.json
         run: |
-          mkdir -p site/public
-          cp artifact/data.json site/public/data.json
+          mkdir -p tools/public
+          cp artifact/data.json tools/public/data.json
+
+      - name: Install dependencies and build search index
+        run: |
+          cd tools
+          npm ci
+        env:
+          EMBEDDING_API_KEY: ${{ secrets.EMBEDDING_API_KEY }}
+          EMBEDDING_MODEL: ${{ vars.EMBEDDING_MODEL || 'bge-m3' }}
+          EMBEDDING_URL: ${{ vars.EMBEDDING_URL || 'https://model-square.app.baizhi.cloud/v1/embeddings' }}
+
+      - name: Build search index
+        run: |
+          cd tools
+          npm run build-search
+        env:
+          EMBEDDING_API_KEY: ${{ secrets.EMBEDDING_API_KEY }}
+          EMBEDDING_MODEL: ${{ vars.EMBEDDING_MODEL || 'bge-m3' }}
+          EMBEDDING_URL: ${{ vars.EMBEDDING_URL || 'https://model-square.app.baizhi.cloud/v1/embeddings' }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Commit and push site update
         run: |
-          cd site
+          cd tools
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public/data.json
-          git commit -m "chore: sync kohstool data.json" || echo "No changes to commit"
+          git add public/data.json public/searchIndex.json public/embeddings.json
+          git commit -m "chore: sync kohstool data and search index" || echo "No changes to commit"
           git push
