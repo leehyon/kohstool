@@ -1,3 +1,4 @@
+- [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 - [fish shell](https://fishshell.com/)
 - [ActivityWatch - Open-source time tracker](https://activitywatch.net/)
 - [denoland/fresh: The next-gen web framework](https://github.com/denoland/fresh)
