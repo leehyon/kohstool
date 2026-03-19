@@ -1,3 +1,4 @@
+- [moffee: Make Markdown Ready to Present](https://github.com/wbopan/moffee)
 - [obra/superpowers: An agentic skills framework & software development methodology that works](https://github.com/obra/superpowers)
 - [MrRSS - Modern Cross-Platform RSS Reader](https://wcy-dt.github.io/MrRSS/)
 - [pypa/pipx: Install and Run Python Applications in Isolated Environments](https://github.com/pypa/pipx)
