@@ -1,3 +1,4 @@
+- [streamich/git-cz](https://github.com/streamich/git-cz)
 - [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
 - [Fabric: An open-source framework for augmenting humans using AI](https://github.com/danielmiessler/Fabric)
 - [moffee: Make Markdown Ready to Present](https://github.com/wbopan/moffee)
