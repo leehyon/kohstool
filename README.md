@@ -1,3 +1,4 @@
+- [OpenClaw: Personal AI Assistant](https://openclaw.ai/)
 - [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 - [fish shell](https://fishshell.com/)
 - [ActivityWatch - Open-source time tracker](https://activitywatch.net/)
