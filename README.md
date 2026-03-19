@@ -1,3 +1,4 @@
+- [voxel51/fiftyone: Refine high-quality datasets and visual AI models](https://github.com/voxel51/fiftyone)
 - [streamich/git-cz](https://github.com/streamich/git-cz)
 - [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
 - [Fabric: An open-source framework for augmenting humans using AI](https://github.com/danielmiessler/Fabric)
