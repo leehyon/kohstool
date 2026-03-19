@@ -1,3 +1,4 @@
+- [fish shell](https://fishshell.com/)
 - [ActivityWatch - Open-source time tracker](https://activitywatch.net/)
 - [denoland/fresh: The next-gen web framework](https://github.com/denoland/fresh)
 - [voxel51/fiftyone: Refine high-quality datasets and visual AI models](https://github.com/voxel51/fiftyone)
