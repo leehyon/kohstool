@@ -1,3 +1,4 @@
+- [xxnuo/VibeGo: A Web IDE built for Vibe Coding anytime, anywhere](https://github.com/xxnuo/VibeGo)
 - [groverburger/grobpaint](https://github.com/groverburger/grobpaint)
 - [OpenClaw: Personal AI Assistant](https://openclaw.ai/)
 - [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
