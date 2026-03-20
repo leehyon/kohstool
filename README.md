@@ -1,3 +1,4 @@
+- [FreshRSS - A free, self-hostable feeds aggregator](https://freshrss.org/index.html)
 - [xxnuo/VibeGo: A Web IDE built for Vibe Coding anytime, anywhere](https://github.com/xxnuo/VibeGo)
 - [groverburger/grobpaint](https://github.com/groverburger/grobpaint)
 - [OpenClaw: Personal AI Assistant](https://openclaw.ai/)
