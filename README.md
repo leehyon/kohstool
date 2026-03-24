@@ -1,3 +1,4 @@
+- [Roo Code - The AI dev team that gets things done](https://roocode.com)
 - [Kilo - The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI](https://kilo.ai/)
 - [FreshRSS - A free, self-hostable feeds aggregator](https://freshrss.org/index.html)
 - [xxnuo/VibeGo: A Web IDE built for Vibe Coding anytime, anywhere](https://github.com/xxnuo/VibeGo)
