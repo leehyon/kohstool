@@ -1,3 +1,4 @@
+- [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)
 - [nanobrew](https://nanobrew.trilok.ai/)
 - [Cline - AI Coding, Open Source and Uncompromised](https://cline.bot)
 - [Roo Code - The AI dev team that gets things done](https://roocode.com)
