@@ -1,3 +1,4 @@
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
 - [pranshuparmar/witr](https://github.com/pranshuparmar/witr)
 - [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)
 - [nanobrew](https://nanobrew.trilok.ai/)
