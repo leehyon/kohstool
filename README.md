@@ -1,3 +1,4 @@
+- [docmd-io/docmd](https://github.com/docmd-io/docmd)
 - [stacklok/toolhive](https://github.com/stacklok/toolhive)
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
 - [pranshuparmar/witr](https://github.com/pranshuparmar/witr)
