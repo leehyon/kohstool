@@ -1,3 +1,4 @@
+- [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
 - [jsattler/BetterCapture](https://github.com/jsattler/BetterCapture)
 - [docmd-io/docmd](https://github.com/docmd-io/docmd)
 - [stacklok/toolhive](https://github.com/stacklok/toolhive)
