@@ -1,3 +1,4 @@
+- [pranshuparmar/witr](https://github.com/pranshuparmar/witr)
 - [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)
 - [nanobrew](https://nanobrew.trilok.ai/)
 - [Cline - AI Coding, Open Source and Uncompromised](https://cline.bot)
