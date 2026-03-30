@@ -1,3 +1,4 @@
+- [UI/UX Pro Max - AI-Powered Design Intelligence](https://ui-ux-pro-max-skill.nextlevelbuilder.io)
 - [lukilabs/beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid)
 - [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
 - [jsattler/BetterCapture](https://github.com/jsattler/BetterCapture)
