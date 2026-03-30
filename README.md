@@ -1,3 +1,4 @@
+- [lukilabs/beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid)
 - [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
 - [jsattler/BetterCapture](https://github.com/jsattler/BetterCapture)
 - [docmd-io/docmd](https://github.com/docmd-io/docmd)
