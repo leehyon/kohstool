@@ -1,3 +1,4 @@
+- [openilink/openilink-hub](https://github.com/openilink/openilink-hub)
 - [Rename.Tools | 在线批量文件重命名工具](https://rename.tools/zh/app)
 - [AnalyseDeCircuit/oxideterm](https://github.com/AnalyseDeCircuit/oxideterm)
 - [CoPaw - Works for you, grows with you](https://copaw.agentscope.io/)
