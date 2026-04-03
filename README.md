@@ -1,3 +1,4 @@
+- [mrgoonie/winshot](https://github.com/mrgoonie/winshot)
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash)
 - [openilink/openilink-hub](https://github.com/openilink/openilink-hub)
 - [Rename.Tools](https://rename.tools/zh/app)
