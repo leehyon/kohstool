@@ -1,3 +1,4 @@
+- [shayne-snap/WayLog](https://github.com/shayne-snap/WayLog)
 - [mrgoonie/winshot](https://github.com/mrgoonie/winshot)
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash)
 - [openilink/openilink-hub](https://github.com/openilink/openilink-hub)
