@@ -1,3 +1,4 @@
+- [AnalyseDeCircuit/oxideterm](https://github.com/AnalyseDeCircuit/oxideterm)
 - [CoPaw - Works for you, grows with you](https://copaw.agentscope.io/)
 - [OpenSpec - A lightweight spec‑driven framework](https://openspec.dev/)
 - [UI/UX Pro Max - AI-Powered Design Intelligence](https://ui-ux-pro-max-skill.nextlevelbuilder.io)
