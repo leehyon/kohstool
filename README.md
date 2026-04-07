@@ -1,3 +1,4 @@
+- [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)
 - [Memos - Capture thoughts instantly](https://usememos.com)
 - [baserow/baserow](https://github.com/baserow/baserow)
 - [shayne-snap/WayLog](https://github.com/shayne-snap/WayLog)
