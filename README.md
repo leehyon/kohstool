@@ -1,3 +1,4 @@
+- [Open Notebook](https://www.open-notebook.ai/)
 - [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis)
 - [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)
 - [Memos - Capture thoughts instantly](https://usememos.com)
