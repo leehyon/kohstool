@@ -1,3 +1,4 @@
+- [Compound Engineering](https://every.to/guides/compound-engineering)
 - [Open Notebook](https://www.open-notebook.ai/)
 - [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis)
 - [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)
