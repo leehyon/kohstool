@@ -1,3 +1,4 @@
+- [aristocratos/btop](https://github.com/aristocratos/btop)
 - [Compound Engineering](https://every.to/guides/compound-engineering)
 - [Open Notebook](https://www.open-notebook.ai/)
 - [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis)
