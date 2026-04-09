@@ -1,3 +1,4 @@
+- [Khoj AI](https://docs.khoj.dev/)
 - [aristocratos/btop](https://github.com/aristocratos/btop)
 - [Compound Engineering](https://every.to/guides/compound-engineering)
 - [Open Notebook](https://www.open-notebook.ai/)
