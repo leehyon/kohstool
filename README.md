@@ -1,3 +1,4 @@
+- [t8y2/unihub](https://github.com/t8y2/unihub)
 - [Khoj AI](https://docs.khoj.dev/)
 - [aristocratos/btop](https://github.com/aristocratos/btop)
 - [Compound Engineering](https://every.to/guides/compound-engineering)
