@@ -1,3 +1,4 @@
+- [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki)
 - [t8y2/unihub](https://github.com/t8y2/unihub)
 - [Khoj AI](https://docs.khoj.dev/)
 - [aristocratos/btop](https://github.com/aristocratos/btop)
