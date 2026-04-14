@@ -1,3 +1,4 @@
+- [denisidoro/navi](https://github.com/denisidoro/navi)
 - [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki)
 - [t8y2/unihub](https://github.com/t8y2/unihub)
 - [Khoj AI](https://docs.khoj.dev/)
