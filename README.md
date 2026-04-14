@@ -1,3 +1,4 @@
+- [tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)
 - [tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 - [denisidoro/navi](https://github.com/denisidoro/navi)
 - [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki)
