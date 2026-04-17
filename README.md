@@ -1,3 +1,4 @@
+- [Recordly - Open-source app for incredible screen recordings.](https://recordly.dev/)
 - [tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)
 - [tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 - [denisidoro/navi](https://github.com/denisidoro/navi)
