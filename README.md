@@ -1,3 +1,4 @@
+- [janhq/jan](https://github.com/janhq/jan)
 - [Session Buddy](https://sessionbuddy.com/)
 - [jonnonz1/openhealth](https://github.com/jonnonz1/openhealth)
 - [OpenToggl](https://opentoggl.com/)
