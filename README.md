@@ -1,3 +1,4 @@
+- [Session Buddy](https://sessionbuddy.com/)
 - [jonnonz1/openhealth](https://github.com/jonnonz1/openhealth)
 - [OpenToggl](https://opentoggl.com/)
 - [Recordly - Open-source app for incredible screen recordings.](https://recordly.dev/)
