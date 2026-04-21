@@ -1,3 +1,4 @@
+- [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill)
 - [janhq/jan](https://github.com/janhq/jan)
 - [Session Buddy](https://sessionbuddy.com/)
 - [jonnonz1/openhealth](https://github.com/jonnonz1/openhealth)
