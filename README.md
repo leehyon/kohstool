@@ -1,3 +1,4 @@
+- [jrainlau/himi-recorder](https://github.com/jrainlau/himi-recorder)
 - [Little Snitch for Linux](https://obdev.at/products/littlesnitch-linux/index.html)
 - [Subtitle Edit](https://www.nikse.dk/subtitleedit)
 - [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill)
