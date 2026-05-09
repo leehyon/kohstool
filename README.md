@@ -1,3 +1,4 @@
+- [Docling](https://docling-project.github.io/docling/)
 - [MemOS](https://memos-docs.openmem.net/)
 - [Laws of Software Engineering](https://lawsofsoftwareengineering.com/)
 - [jrainlau/himi-recorder](https://github.com/jrainlau/himi-recorder)
