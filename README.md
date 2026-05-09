@@ -1,3 +1,4 @@
+- [datalab-to/marker](https://github.com/datalab-to/marker)
 - [Docling](https://docling-project.github.io/docling/)
 - [MemOS](https://memos-docs.openmem.net/)
 - [Laws of Software Engineering](https://lawsofsoftwareengineering.com/)
