@@ -1,3 +1,4 @@
+- [小遥账单](https://github.com/dtsola/xiaoyaoprivatebill)
 - [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
 - [LDJ-creat/video-helper](https://github.com/LDJ-creat/video-helper)
