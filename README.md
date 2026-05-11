@@ -1,3 +1,4 @@
+- [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
 - [LDJ-creat/video-helper](https://github.com/LDJ-creat/video-helper)
 - [grobidOrg/grobid](https://github.com/grobidOrg/grobid)
