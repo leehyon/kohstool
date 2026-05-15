@@ -1,3 +1,4 @@
+- [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
 - [iAmCorey/kooky](https://github.com/iAmCorey/kooky)
 - [BryanHoo/FeedFuse](https://github.com/BryanHoo/FeedFuse)
 - [Luigigreco/gitforms](https://github.com/Luigigreco/gitforms)
