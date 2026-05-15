@@ -1,3 +1,4 @@
+- [BryanHoo/FeedFuse](https://github.com/BryanHoo/FeedFuse)
 - [Luigigreco/gitforms](https://github.com/Luigigreco/gitforms)
 - [Pinta](https://pinta-project.com)
 - [oldj/publa](https://github.com/oldj/publa)
