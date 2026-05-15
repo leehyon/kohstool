@@ -1,3 +1,4 @@
+- [Pinta](https://pinta-project.com)
 - [oldj/publa](https://github.com/oldj/publa)
 - [小遥账单](https://github.com/dtsola/xiaoyaoprivatebill)
 - [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
