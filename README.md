@@ -1,3 +1,4 @@
+- [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)
 - [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill)
 - [reveal.js](https://revealjs.com/)
 - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
