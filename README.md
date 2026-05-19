@@ -1,3 +1,4 @@
+- [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill)
 - [reveal.js](https://revealjs.com/)
 - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
 - [iAmCorey/kooky](https://github.com/iAmCorey/kooky)
