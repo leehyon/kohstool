@@ -1,3 +1,4 @@
+- [Forgejo](https://forgejo.org/)
 - [Stock SDK](https://chengzuopeng.github.io/stock-sdk/)
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [ttyd](https://github.com/tsl0922/ttyd)
