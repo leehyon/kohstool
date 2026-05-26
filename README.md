@@ -1,3 +1,4 @@
+- [Metabase](https://www.metabase.com/)
 - [nocodb](https://github.com/nocodb/nocodb)
 - [Baserow](https://baserow.io/)
 - [thananon/9arm-skills](https://github.com/thananon/9arm-skills)
