@@ -1,3 +1,4 @@
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [appsmith](https://github.com/appsmithorg/appsmith)
 - [Metabase](https://www.metabase.com/)
 - [nocodb](https://github.com/nocodb/nocodb)
