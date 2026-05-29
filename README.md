@@ -1,3 +1,4 @@
+- [capcap](https://github.com/realskyrin/capcap)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [appsmith](https://github.com/appsmithorg/appsmith)
 - [Metabase](https://www.metabase.com/)
