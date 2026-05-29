@@ -1,3 +1,4 @@
+- [docx-editor](https://github.com/eigenpal/docx-editor)
 - [cmux](https://cmux.com)
 - [open-design](https://github.com/nexu-io/open-design)
 - [capcap](https://github.com/realskyrin/capcap)
