@@ -1,3 +1,4 @@
+- [dive](https://github.com/wagoodman/dive)
 - [docx-editor](https://github.com/eigenpal/docx-editor)
 - [cmux](https://cmux.com)
 - [open-design](https://github.com/nexu-io/open-design)
