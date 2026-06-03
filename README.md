@@ -1,3 +1,4 @@
+- [邸报 Dibao](https://dibao.app/zh/)
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 - [codegraph](https://github.com/colbymchenry/codegraph)
 - [dive](https://github.com/wagoodman/dive)
