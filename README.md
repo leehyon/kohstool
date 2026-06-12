@@ -1,3 +1,4 @@
+- [Battle-Tested Patterns](https://totoro-jam.github.io/battle-tested-patterns/)
 - [transmission](https://github.com/transmission/transmission)
 - [html-anything](https://github.com/nexu-io/html-anything)
 - [Open Design](https://open-design.ai/)
