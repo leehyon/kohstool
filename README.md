@@ -1,3 +1,4 @@
+- [transmission](https://github.com/transmission/transmission)
 - [html-anything](https://github.com/nexu-io/html-anything)
 - [Open Design](https://open-design.ai/)
 - [邸报 Dibao](https://dibao.app/zh/)
