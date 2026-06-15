@@ -1,3 +1,4 @@
+- [Recuva](https://www.ccleaner.com/recuva)
 - [testdisk](https://github.com/cgsecurity/testdisk)
 - [Battle-Tested Patterns](https://totoro-jam.github.io/battle-tested-patterns/)
 - [transmission](https://github.com/transmission/transmission)
