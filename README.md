@@ -1,3 +1,4 @@
+- [Satty](https://github.com/Satty-org/Satty)
 - [book-to-skill](https://github.com/virgiliojr94/book-to-skill)
 - [Recuva](https://www.ccleaner.com/recuva)
 - [testdisk](https://github.com/cgsecurity/testdisk)
