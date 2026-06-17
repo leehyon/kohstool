@@ -1,3 +1,4 @@
+- [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [Satty](https://github.com/Satty-org/Satty)
 - [book-to-skill](https://github.com/virgiliojr94/book-to-skill)
 - [Recuva](https://www.ccleaner.com/recuva)
