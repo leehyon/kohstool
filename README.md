@@ -1,3 +1,4 @@
+- [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
 - [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [Satty](https://github.com/Satty-org/Satty)
 - [book-to-skill](https://github.com/virgiliojr94/book-to-skill)
