@@ -1,3 +1,4 @@
+- [CC Switch](https://ccswitch.io/zh/)
 - [tldraw](https://github.com/tldraw/tldraw)
 - [puncover](https://github.com/HBehrens/puncover)
 - [RustDesk](https://rustdesk.com)
