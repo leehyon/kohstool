@@ -1,3 +1,4 @@
+- [clash-for-linux-install](https://github.com/nelvko/clash-for-linux-install)
 - [TablePro](https://tablepro.app/)
 - [DSA](https://dsa.zhulinsen.tech/)
 - [Understand Anything](https://understand-anything.com/)
