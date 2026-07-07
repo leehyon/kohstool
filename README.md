@@ -1,3 +1,4 @@
+- [hermex](https://github.com/uzairansaruzi/hermex)
 - [PicForge](https://github.com/DejavuMoe/PicForge)
 - [clash-for-linux-install](https://github.com/nelvko/clash-for-linux-install)
 - [TablePro](https://tablepro.app/)
