@@ -10,7 +10,11 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Run mode'
+        description: |
+          Run mode (only used for manual workflow_dispatch; push events always run 'normal'):
+          - normal: ingest the next new tool from README.md (one per run).
+          - retry-broken: re-fetch + regenerate every entry whose guide file is missing or below MIN_GUIDE_BYTES (e.g. Jina failed earlier). Use --max-new to cap retries per run.
+          - backfill: rebuild README/monthly indexes from existing data without fetching.
         type: choice
         required: true
         default: 'normal'
@@ -19,7 +23,7 @@ on:
           - retry-broken
           - backfill
       max_new:
-        description: 'Max entries to process (default 1 for normal, can be higher for retry-broken)'
+        description: 'Max entries to process per run. Use a larger value (e.g. 10) with retry-broken to clear many broken entries in one go.'
         type: number
         required: false
         default: 1

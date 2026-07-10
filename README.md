@@ -1,8 +1,5 @@
-- [wenyi](https://github.com/BigDawnGhost/wenyi)
-- [wenyi](https://github.com/BigDawnGhost/wenyi)
 - [edgeever](https://github.com/tianma-if/edgeever)
 - [boss-zhipin-scraper](https://github.com/eatmoreduck/boss-zhipin-scraper)
-- [eve](https://github.com/nexmoe/eve)
 - [TaskTick](https://github.com/lifedever/TaskTick)
 - [hermex](https://github.com/uzairansaruzi/hermex)
 - [PicForge](https://github.com/DejavuMoe/PicForge)
