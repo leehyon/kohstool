@@ -1,3 +1,4 @@
+- [TaskTick](https://github.com/lifedever/TaskTick)
 - [hermex](https://github.com/uzairansaruzi/hermex)
 - [PicForge](https://github.com/DejavuMoe/PicForge)
 - [clash-for-linux-install](https://github.com/nelvko/clash-for-linux-install)
