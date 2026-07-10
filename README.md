@@ -1,3 +1,4 @@
+- [eve](https://github.com/nexmoe/eve)
 - [TaskTick](https://github.com/lifedever/TaskTick)
 - [hermex](https://github.com/uzairansaruzi/hermex)
 - [PicForge](https://github.com/DejavuMoe/PicForge)
