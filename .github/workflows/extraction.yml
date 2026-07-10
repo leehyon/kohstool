@@ -8,6 +8,21 @@ on:
       # Only rerun when the tool link list changes.
       - 'README.md'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        type: choice
+        required: true
+        default: 'normal'
+        options:
+          - normal
+          - retry-broken
+          - backfill
+      max_new:
+        description: 'Max entries to process (default 1 for normal, can be higher for retry-broken)'
+        type: number
+        required: false
+        default: 1
 
 concurrency:
   group: ${{ github.workflow }}
@@ -47,7 +62,17 @@ jobs:
           OPENAI_API_MODEL: ${{ vars.OPENAI_API_MODEL }}
           OPENAI_API_ENDPOINT: ${{ vars.OPENAI_API_ENDPOINT }}
         run: |
-          python kohstool-guide/process_changes.py --collection-readme README.md
+          # Build CLI flags from workflow_dispatch inputs. Push events get defaults.
+          MODE="${{ inputs.mode || 'normal' }}"
+          MAX_NEW="${{ inputs.max_new || 1 }}"
+          EXTRA=""
+          if [ "$MODE" = "retry-broken" ]; then
+            EXTRA="--retry-broken"
+          elif [ "$MODE" = "backfill" ]; then
+            EXTRA="--backfill"
+          fi
+          echo "Mode: $MODE  Max-new: $MAX_NEW  Extra: $EXTRA"
+          python kohstool-guide/process_changes.py --collection-readme README.md --max-new "$MAX_NEW" $EXTRA
 
       - name: Validate data.json (no empty TL;DRs / guide files)
         # Guardrail: a fetch failure (e.g. Jina 403) used to fall through with
