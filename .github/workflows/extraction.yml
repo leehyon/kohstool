@@ -49,6 +49,71 @@ jobs:
         run: |
           python kohstool-guide/process_changes.py --collection-readme README.md
 
+      - name: Validate data.json (no empty TL;DRs / guide files)
+        # Guardrail: a fetch failure (e.g. Jina 403) used to fall through with
+        # empty page_text and ship a near-empty TL;DR + tiny guide file.
+        # Abort the run if any entry looks broken so site_sync is never seeded
+        # with garbage.
+        #
+        # Only checks entries produced by THIS run (via .last_run.json written
+        # by process_changes.py), so stale broken entries from earlier buggy
+        # runs don't block the workflow forever.
+        #
+        # Threshold rationale: legitimate guide files cluster 800B+, broken
+        # ones cluster 0-300B. 500B sits in the empty gap between them.
+        run: |
+          python - <<'PY'
+          import json, os, re, sys
+
+          DATA = "kohstool-guide/data.json"
+          MANIFEST = "kohstool-guide/.last_run.json"
+          GUIDE_ROOT = "kohstool-guide"
+          MIN_GUIDE_BYTES = 500  # guide markdown file size on disk
+
+          # Read the manifest of guide paths produced this run.
+          if not os.path.exists(MANIFEST):
+              print(f"ERROR: {MANIFEST} not found — did process_changes.py run?", file=sys.stderr)
+              sys.exit(1)
+          with open(MANIFEST, encoding="utf-8") as fh:
+              manifest = json.load(fh)
+          new_paths = set(manifest.get("guide_paths") or [])
+
+          # Empty manifest = no new tools processed this run. Nothing to
+          # validate; pre-existing entries (good or bad) are out of scope.
+          if not new_paths:
+              print("OK: no new entries produced this run; nothing to validate.")
+              sys.exit(0)
+
+          with open(DATA, encoding="utf-8") as fh:
+              entries = json.load(fh)
+
+          bad = []
+          for e in entries:
+              url = e.get("guide_markdown") or ""
+              m = re.search(r"/blob/[^/]+/(.+)$", url)
+              rel = m.group(1) if m else None
+              if not rel:
+                  continue
+              # Match manifest path (which is absolute) by suffix so we don't
+              # get tripped up by SUMMARY_ROOT resolution differences.
+              full = os.path.join(GUIDE_ROOT, rel)
+              if not any(p.endswith(rel) or p.endswith(os.path.join(GUIDE_ROOT, rel))
+                         for p in new_paths):
+                  continue
+              size = os.path.getsize(full) if os.path.exists(full) else 0
+              if size < MIN_GUIDE_BYTES:
+                  bad.append((e.get("name"), size, rel))
+
+          if bad:
+              print(f"ERROR: {len(bad)} new entr{'y' if len(bad)==1 else 'ies'} "
+                    f"have empty/missing guide file:", file=sys.stderr)
+              for name, sz, p in bad:
+                  print(f"  - {name}: guide={sz}B ({p})", file=sys.stderr)
+              sys.exit(1)
+          print(f"OK: all {len(new_paths)} new entr{'y' if len(new_paths)==1 else 'ies'} "
+                f"have guide>={MIN_GUIDE_BYTES}B")
+          PY
+
       - name: Upload data.json artifact
         uses: actions/upload-artifact@v4
         with:
