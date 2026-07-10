@@ -1,3 +1,4 @@
+- [boss-zhipin-scraper](https://github.com/eatmoreduck/boss-zhipin-scraper)
 - [eve](https://github.com/nexmoe/eve)
 - [TaskTick](https://github.com/lifedever/TaskTick)
 - [hermex](https://github.com/uzairansaruzi/hermex)
