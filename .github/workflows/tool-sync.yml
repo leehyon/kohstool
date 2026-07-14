@@ -162,7 +162,7 @@ jobs:
         run: |
           cd kohstool-guide
           git fetch origin main
-          git merge origin/main --no-edit || echo "Already up to date"
+          git rebase origin/main
           git push
 
   site_sync:
@@ -220,4 +220,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add public/data.json public/searchIndex.json public/embeddings.json
           git commit -m "chore: sync kohstool data and search index" || echo "No changes to commit"
+          git fetch origin main
+          git rebase origin/main
           git push
