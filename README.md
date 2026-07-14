@@ -1,3 +1,4 @@
+- [LaTeXSnipper](https://github.com/SakuraMathcraft/LaTeXSnipper)
 - [Davit - a native macOS UI for Apple containers](https://davit.app/)
 - [wenyi](https://github.com/BigDawnGhost/wenyi)
 - [edgeever](https://github.com/tianma-if/edgeever)
