@@ -66,6 +66,7 @@ jobs:
           OPENAI_API_MODEL: ${{ vars.OPENAI_API_MODEL }}
           OPENAI_API_ENDPOINT: ${{ vars.OPENAI_API_ENDPOINT }}
         run: |
+          set -euo pipefail
           # Build CLI flags from workflow_dispatch inputs. Push events get defaults.
           MODE="${{ inputs.mode || 'normal' }}"
           MAX_NEW="${{ inputs.max_new || 1 }}"
@@ -76,7 +77,15 @@ jobs:
             EXTRA="--backfill"
           fi
           echo "Mode: $MODE  Max-new: $MAX_NEW  Extra: $EXTRA"
-          python kohstool-guide/process_changes.py --collection-readme README.md --max-new "$MAX_NEW" $EXTRA
+          python kohstool-guide/process_changes.py --collection-readme README.md --max-new "$MAX_NEW" $EXTRA 2>&1 | tee process_changes.log
+
+          # Defensive guardrail: if process_changes.py ever regresses to
+          # swallowing fetch failures (logging but still exiting 0), fail the
+          # workflow immediately and block downstream steps.
+          if grep -Eq "All [0-9]+ retry attempts failed|failed to fetch page content|Aborting ingestion of" process_changes.log; then
+            echo "ERROR: fetch/content extraction failed during Process changes." >&2
+            exit 1
+          fi
 
       - name: Validate data.json (no empty TL;DRs / guide files)
         # Guardrail: a fetch failure (e.g. Jina 403) used to fall through with
