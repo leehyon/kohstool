@@ -1,3 +1,6 @@
+- [LaTeXSnipper](https://github.com/SakuraMathcraft/LaTeXSnipper)
+- [Davit - a native macOS UI for Apple containers](https://davit.app/)
+- [wenyi](https://github.com/BigDawnGhost/wenyi)
 - [edgeever](https://github.com/tianma-if/edgeever)
 - [boss-zhipin-scraper](https://github.com/eatmoreduck/boss-zhipin-scraper)
 - [TaskTick](https://github.com/lifedever/TaskTick)
