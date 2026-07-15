@@ -1,3 +1,4 @@
+- [airi](https://github.com/moeru-ai/airi)
 - [Kill AI Slop](https://killaislop.com/)
 - [MacTools](https://github.com/ggbond268/MacTools)
 - [LaTeXSnipper](https://github.com/SakuraMathcraft/LaTeXSnipper)
