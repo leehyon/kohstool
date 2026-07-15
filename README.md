@@ -1,3 +1,4 @@
+- [Kill AI Slop](https://killaislop.com/)
 - [MacTools](https://github.com/ggbond268/MacTools)
 - [LaTeXSnipper](https://github.com/SakuraMathcraft/LaTeXSnipper)
 - [Davit - a native macOS UI for Apple containers](https://davit.app/)
