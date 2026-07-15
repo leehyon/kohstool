@@ -1,3 +1,4 @@
+- [osmosmemo](https://github.com/osmoscraft/osmosmemo)
 - [airi](https://github.com/moeru-ai/airi)
 - [Kill AI Slop](https://killaislop.com/)
 - [MacTools](https://github.com/ggbond268/MacTools)
