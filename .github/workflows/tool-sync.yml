@@ -7,6 +7,7 @@ on:
     paths:
       # Only rerun when the tool link list changes.
       - 'README.md'
+      - '.github/workflows/tool-sync.yml'
   workflow_dispatch:
     inputs:
       mode:
@@ -32,9 +33,13 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 
+permissions:
+  contents: read
+
 jobs:
   summarize:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -46,7 +51,7 @@ jobs:
         with:
           repository: leehyon/kohstool-guide
           path: kohstool-guide
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.SUMMARY_SYNC_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -57,14 +62,15 @@ jobs:
       
       - name: Install dependencies
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
           pip install -r kohstool-guide/requirements.txt
 
       - name: Process changes
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_API_MODEL: ${{ vars.OPENAI_API_MODEL }}
-          OPENAI_API_ENDPOINT: ${{ vars.OPENAI_API_ENDPOINT }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_ENDPOINT: ${{ vars.LLM_API_ENDPOINT }}
         run: |
           set -euo pipefail
           # Build CLI flags from workflow_dispatch inputs. Push events get defaults.
@@ -87,7 +93,7 @@ jobs:
             exit 1
           fi
 
-      - name: Validate data.json (no empty TL;DRs / guide files)
+      - name: Validate data.json (no empty/missing guide files)
         # Guardrail: a fetch failure (e.g. Jina 403) used to fall through with
         # empty page_text and ship a near-empty TL;DR + tiny guide file.
         # Abort the run if any entry looks broken so site_sync is never seeded
@@ -161,15 +167,27 @@ jobs:
 
       - name: Commit changes to kohstool-guide
         run: |
+          set -euo pipefail
           cd kohstool-guide
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "ci: add new tools" || echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "false" > .has_changes
+          else
+            git commit -m "ci: add new tools"
+            echo "true" > .has_changes
+          fi
 
       - name: Pull and push
         run: |
+          set -euo pipefail
           cd kohstool-guide
+          if [ ! -f .has_changes ] || [ "$(cat .has_changes)" != "true" ]; then
+            echo "Skip push: no new commit in this run"
+            exit 0
+          fi
           git fetch origin main
           git rebase origin/main
           git push
@@ -177,6 +195,7 @@ jobs:
   site_sync:
     needs: summarize
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -191,7 +210,7 @@ jobs:
         with:
           repository: leehyon/tools
           path: tools
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.SUMMARY_SYNC_PAT }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -200,35 +219,43 @@ jobs:
 
       - name: Update site data.json
         run: |
+          set -euo pipefail
           mkdir -p tools/public
           cp artifact/data.json tools/public/data.json
 
-      - name: Install dependencies and build search index
+      - name: Install dependencies
         run: |
+          set -euo pipefail
           cd tools
           npm ci
         env:
           EMBEDDING_API_KEY: ${{ secrets.EMBEDDING_API_KEY }}
           EMBEDDING_MODEL: ${{ vars.EMBEDDING_MODEL || 'bge-m3' }}
-          EMBEDDING_URL: ${{ vars.EMBEDDING_URL || 'https://model-square.app.baizhi.cloud/v1/embeddings' }}
+          EMBEDDING_API_ENDPOINT: ${{ vars.EMBEDDING_API_ENDPOINT || 'https://model-square.app.baizhi.cloud/v1/embeddings' }}
 
       - name: Build search index
         run: |
+          set -euo pipefail
           cd tools
           npm run build-search
         env:
           EMBEDDING_API_KEY: ${{ secrets.EMBEDDING_API_KEY }}
           EMBEDDING_MODEL: ${{ vars.EMBEDDING_MODEL || 'bge-m3' }}
-          EMBEDDING_URL: ${{ vars.EMBEDDING_URL || 'https://model-square.app.baizhi.cloud/v1/embeddings' }}
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          EMBEDDING_API_ENDPOINT: ${{ vars.EMBEDDING_API_ENDPOINT || 'https://model-square.app.baizhi.cloud/v1/embeddings' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push site update
         run: |
+          set -euo pipefail
           cd tools
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add public/data.json public/searchIndex.json public/embeddings.json
-          git commit -m "chore: sync kohstool data and search index" || echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: sync kohstool data and search index"
           git fetch origin main
           git rebase origin/main
           git push
