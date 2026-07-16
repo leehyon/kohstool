@@ -1,3 +1,4 @@
+- [Bruno - The Git-Native API Client](https://www.usebruno.com)
 - [osmosmemo](https://github.com/osmoscraft/osmosmemo)
 - [airi](https://github.com/moeru-ai/airi)
 - [Kill AI Slop](https://killaislop.com/)
