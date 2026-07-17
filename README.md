@@ -1,3 +1,4 @@
+- [kula](https://github.com/c0m4r/kula)
 - [PDFSlice](https://github.com/ShashwatSricodes/PDFSlice)
 - [Mouser](https://github.com/TomBadash/Mouser)
 - [Herdr: one terminal for the whole herd](https://herdr.dev/)
