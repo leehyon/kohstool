@@ -1,3 +1,4 @@
+- [Herdr: one terminal for the whole herd](https://herdr.dev/)
 - [Bruno - The Git-Native API Client](https://www.usebruno.com)
 - [osmosmemo](https://github.com/osmoscraft/osmosmemo)
 - [airi](https://github.com/moeru-ai/airi)
