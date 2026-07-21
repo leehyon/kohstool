@@ -1,3 +1,4 @@
+- [cue](https://github.com/Blueturboguy07/cue)
 - [wardrobe](https://github.com/tandpfun/wardrobe)
 - [yoinks](https://github.com/pablostanley/yoinks)
 - [pi-auto-approval](https://github.com/Europa2061/pi-auto-approval)
