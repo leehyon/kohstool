@@ -1,3 +1,4 @@
+- [yoinks](https://github.com/pablostanley/yoinks)
 - [pi-auto-approval](https://github.com/Europa2061/pi-auto-approval)
 - [kula](https://github.com/c0m4r/kula)
 - [PDFSlice](https://github.com/ShashwatSricodes/PDFSlice)
