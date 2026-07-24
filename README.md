@@ -1,3 +1,4 @@
+- [holaOS](https://www.holaos.ai/)
 - [cue](https://github.com/Blueturboguy07/cue)
 - [wardrobe](https://github.com/tandpfun/wardrobe)
 - [yoinks](https://github.com/pablostanley/yoinks)
