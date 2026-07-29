@@ -1,3 +1,4 @@
+- [graphify](https://github.com/Graphify-Labs/graphify)
 - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit)
 - [SoloMD](https://solomd.app/)
 - [SurfSense - NotebookLM for Open Web Research](https://www.surfsense.com)
