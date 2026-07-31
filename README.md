@@ -1,3 +1,4 @@
+- [lazyrsync](https://github.com/westpoint-io/lazyrsync)
 - [bento](https://bento.page/)
 - [Orion Browser](https://orionbrowser.com/)
 - [open-connector](https://github.com/oomol-lab/open-connector)
