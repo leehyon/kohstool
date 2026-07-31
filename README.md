@@ -1,3 +1,4 @@
+- [bento](https://bento.page/)
 - [Orion Browser](https://orionbrowser.com/)
 - [open-connector](https://github.com/oomol-lab/open-connector)
 - [openworker](https://github.com/andrewyng/openworker)
