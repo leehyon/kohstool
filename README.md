@@ -1,3 +1,4 @@
+- [ai-disk-cleaner](https://github.com/vudsen/ai-disk-cleaner)
 - [FluxDown](https://github.com/zerx-lab/FluxDown)
 - [Linux-Router](https://github.com/Jaksay/Linux-Router)
 - [lazyrsync](https://github.com/westpoint-io/lazyrsync)
