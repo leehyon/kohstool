@@ -1,3 +1,4 @@
+- [FluxDown](https://github.com/zerx-lab/FluxDown)
 - [Linux-Router](https://github.com/Jaksay/Linux-Router)
 - [lazyrsync](https://github.com/westpoint-io/lazyrsync)
 - [bento](https://bento.page/)
