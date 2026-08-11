@@ -1,3 +1,4 @@
+- [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)
 - [howtodraw](https://www.howtodraw.ai)
 - [ai-disk-cleaner](https://github.com/vudsen/ai-disk-cleaner)
 - [FluxDown](https://github.com/zerx-lab/FluxDown)
