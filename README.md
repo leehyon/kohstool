@@ -1,3 +1,4 @@
+- [llama.app](https://llama.app/)
 - [OpenViking](https://github.com/volcengine/OpenViking)
 - [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)
 - [howtodraw](https://www.howtodraw.ai)
