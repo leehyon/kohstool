@@ -1,3 +1,4 @@
+- [OpenViking](https://github.com/volcengine/OpenViking)
 - [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)
 - [howtodraw](https://www.howtodraw.ai)
 - [ai-disk-cleaner](https://github.com/vudsen/ai-disk-cleaner)
