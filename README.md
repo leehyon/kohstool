@@ -86,7 +86,7 @@
 - [oldj/publa](https://github.com/oldj/publa)
 - [小遥账单](https://github.com/dtsola/xiaoyaoprivatebill)
 - [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+- [agency-agents](https://github.com/msitarzewski/agency-agents)
 - [LDJ-creat/video-helper](https://github.com/LDJ-creat/video-helper)
 - [grobidOrg/grobid](https://github.com/grobidOrg/grobid)
 - [datalab-to/marker](https://github.com/datalab-to/marker)
