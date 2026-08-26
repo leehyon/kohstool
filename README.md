@@ -1,3 +1,4 @@
+- [BookLore](https://github.com/booklore-app/booklore)
 - [Kavita - Self-Hosted Digital Library](https://www.kavitareader.com/)
 - [Anx Reader](https://github.com/anxcye/anx-reader)
 - [CertMate - SSL Certificate Management System](https://www.certmate.org/)
