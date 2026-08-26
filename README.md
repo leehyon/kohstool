@@ -1,3 +1,4 @@
+- [Kavita - Self-Hosted Digital Library](https://www.kavitareader.com/)
 - [Anx Reader](https://github.com/anxcye/anx-reader)
 - [CertMate - SSL Certificate Management System](https://www.certmate.org/)
 - [insect-world](https://github.com/xr843/insect-world)
