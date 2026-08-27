@@ -1,3 +1,4 @@
+- [KNAS 音乐整理](https://knas.site/zh/music-organizer)
 - [BookLore](https://github.com/booklore-app/booklore)
 - [Kavita - Self-Hosted Digital Library](https://www.kavitareader.com/)
 - [Anx Reader](https://github.com/anxcye/anx-reader)
