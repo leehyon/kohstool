@@ -1,3 +1,4 @@
+- [Ceedling](https://www.throwtheswitch.org/ceedling)
 - [GreenVideo ](https://greenvideo.cc/en/)
 - [KNAS 音乐整理](https://knas.site/zh/music-organizer)
 - [BookLore](https://github.com/booklore-app/booklore)
