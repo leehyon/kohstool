@@ -110,7 +110,7 @@
 - [Session Buddy](https://sessionbuddy.com/)
 - [jonnonz1/openhealth](https://github.com/jonnonz1/openhealth)
 - [OpenToggl](https://opentoggl.com/)
-- [Recordly - Open-source app for incredible screen recordings.](https://recordly.dev/)
+- [Recordly](https://recordly.dev/)
 - [tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)
 - [tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 - [denisidoro/navi](https://github.com/denisidoro/navi)
