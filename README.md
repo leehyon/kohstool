@@ -1,3 +1,4 @@
+- [emailmd](https://www.emailmd.dev/templates)
 - [multi-row-tabs](https://github.com/hezhizheng/multi-row-tabs)
 - [Markra](https://markra.app/)
 - [Ceedling](https://www.throwtheswitch.org/ceedling)
