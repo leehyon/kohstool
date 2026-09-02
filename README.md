@@ -1,3 +1,4 @@
+- [FFmpeg](https://ffmpeg.org/)
 - [OBS - Open Broadcaster Software](https://obsproject.com/)
 - [Screen Studio — Professional screen recorder for macOS](https://screen.studio/)
 - [Kdenlive - Free and Open Source Video Editor](https://kdenlive.org/)
