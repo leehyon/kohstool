@@ -1,3 +1,4 @@
+- [Screen Studio — Professional screen recorder for macOS](https://screen.studio/)
 - [Kdenlive - Free and Open Source Video Editor](https://kdenlive.org/)
 - [emailmd](https://www.emailmd.dev/templates)
 - [multi-row-tabs](https://github.com/hezhizheng/multi-row-tabs)
