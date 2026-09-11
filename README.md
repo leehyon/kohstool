@@ -1,3 +1,4 @@
+- [Tolaria](https://tolaria.md/)
 - [Recordly](https://recordly.dev/)
 - [zlib — a Z-Library CLI for your terminal and AI agents](https://zlib.heartleo.dev/)
 - [FFmpeg](https://ffmpeg.org/)
