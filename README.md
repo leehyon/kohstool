@@ -1,3 +1,4 @@
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [VitePress](https://vitepress.dev/)
 - [Tolaria](https://tolaria.md/)
 - [Recordly](https://recordly.dev/)
