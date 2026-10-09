@@ -1,3 +1,4 @@
+- [stillwet](https://stillwet.art/)
 - [Crafting Apps: open-source creative tools](https://getartcraft.com/apps)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [VitePress](https://vitepress.dev/)
