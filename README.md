@@ -1,3 +1,4 @@
+- [wol](https://github.com/Trugamr/wol)
 - [Archify](https://archify.si/)
 - [CleanYourTV](https://cleanyour.tv/)
 - [Caplo](https://caplo.app/)
