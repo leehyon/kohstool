@@ -1,3 +1,4 @@
+- [douban-cli](https://github.com/Marvae/douban-cli)
 - [wol](https://github.com/Trugamr/wol)
 - [Archify](https://archify.si/)
 - [CleanYourTV](https://cleanyour.tv/)
