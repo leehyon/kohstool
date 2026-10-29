@@ -1,3 +1,4 @@
+- [Pele](https://pele.run/)
 - [ascii.rest](https://ascii.rest/)
 - [douban-cli](https://github.com/Marvae/douban-cli)
 - [wol](https://github.com/Trugamr/wol)
