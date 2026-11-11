@@ -1,3 +1,4 @@
+- [casnode](https://github.com/casnode/casnode)
 - [florilegium](https://github.com/kevinraymond/florilegium)
 - [Pele](https://pele.run/)
 - [ascii.rest](https://ascii.rest/)
