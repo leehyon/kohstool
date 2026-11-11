@@ -1,3 +1,4 @@
+- [linkit](https://github.com/blue-idea/linkit)
 - [Crossbow](https://github.com/Richard-Zhang1019/Crossbow)
 - [casnode](https://github.com/casnode/casnode)
 - [florilegium](https://github.com/kevinraymond/florilegium)
