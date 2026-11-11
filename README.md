@@ -1,3 +1,4 @@
+- [florilegium](https://github.com/kevinraymond/florilegium)
 - [Pele](https://pele.run/)
 - [ascii.rest](https://ascii.rest/)
 - [douban-cli](https://github.com/Marvae/douban-cli)
